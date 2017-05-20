@@ -113,6 +113,7 @@
 (defapifn clubs "/v3/clubs/:id" :id)
 (defapifn club-members "/v3/clubs/:id/members" :id)
 (defapifn club-activities "/v3/clubs/:id/activities" :id)
+(defapifn club-announcements "/v3/clubs/:id/announcements" :id)
 
 (defapifn gear "/v3/gear/:id" :id)
 
